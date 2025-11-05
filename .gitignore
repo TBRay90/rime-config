@@ -1,0 +1,28 @@
+# 备份目录
+rime_backup_*/
+Rime_backup_*/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# 日志文件
+*.log
+
+# 编辑器配置
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+
