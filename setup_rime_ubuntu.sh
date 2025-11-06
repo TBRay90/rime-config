@@ -163,7 +163,7 @@ echo "🚀 部署 Rime ..."
 rime_deployer --build "$RIME_DIR" || fcitx5-rime-deployer --build "$RIME_DIR" || true
 
 echo "🔁 重启 fcitx5 ..."
-fcitx5 -r || true
+nohup fcitx5 -r >/dev/null 2>&1 &
 
 echo "✅ 安装完成！"
 echo "📦 旧配置已备份到: $BACKUP_DIR"
